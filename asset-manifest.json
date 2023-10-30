@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/FreshCart-Ecommerce/static/css/main.be0c54d2.css",
+    "main.js": "/FreshCart-Ecommerce/static/js/main.60e19518.js",
+    "static/js/787.bd02f72e.chunk.js": "/FreshCart-Ecommerce/static/js/787.bd02f72e.chunk.js",
+    "static/media/masterCard.png": "/FreshCart-Ecommerce/static/media/masterCard.80a52eb6701e1bd8f4dc.png",
+    "static/media/fa-solid-900.ttf": "/FreshCart-Ecommerce/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/slider-image-1.jpeg": "/FreshCart-Ecommerce/static/media/slider-image-1.3c3940ee0f1c3b17ff9a.jpeg",
+    "static/media/grocery-banner.png": "/FreshCart-Ecommerce/static/media/grocery-banner.2c56649c9cbe2e19b86f.png",
+    "static/media/fa-brands-400.ttf": "/FreshCart-Ecommerce/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/slider-image-3.jpeg": "/FreshCart-Ecommerce/static/media/slider-image-3.7e5c9f7a513f6db6dd5e.jpeg",
+    "static/media/slider-image-2.jpeg": "/FreshCart-Ecommerce/static/media/slider-image-2.e510b0de8a4d96a1d5ad.jpeg",
+    "static/media/grocery-banner-2.jpeg": "/FreshCart-Ecommerce/static/media/grocery-banner-2.7a4a78a90acc3d5847cb.jpeg",
+    "static/media/fa-solid-900.woff2": "/FreshCart-Ecommerce/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/FreshCart-Ecommerce/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/error.svg": "/FreshCart-Ecommerce/static/media/error.084f5f5b0eb10d3216cb7c939108e1f6.svg",
+    "static/media/amazon.png": "/FreshCart-Ecommerce/static/media/amazon.f1d7ed8012ba50041d47.png",
+    "static/media/AmericanExpress.png": "/FreshCart-Ecommerce/static/media/AmericanExpress.a4d9fed0dfb0cb89bffd.png",
+    "static/media/googlePlay.png": "/FreshCart-Ecommerce/static/media/googlePlay.be698998a735e3643bec.png",
+    "static/media/fa-regular-400.ttf": "/FreshCart-Ecommerce/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/appleStore.png": "/FreshCart-Ecommerce/static/media/appleStore.03a770fb75d19c9ed4bb.png",
+    "static/media/paypal.png": "/FreshCart-Ecommerce/static/media/paypal.23de67180c29c3c3c30d.png",
+    "static/media/fa-regular-400.woff2": "/FreshCart-Ecommerce/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/freshcart-logo.svg": "/FreshCart-Ecommerce/static/media/freshcart-logo.53f7a424c3aedc30a0fb46dc2278137c.svg",
+    "static/media/fa-v4compatibility.ttf": "/FreshCart-Ecommerce/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/FreshCart-Ecommerce/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "static/media/slick.svg": "/FreshCart-Ecommerce/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/FreshCart-Ecommerce/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/FreshCart-Ecommerce/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/FreshCart-Ecommerce/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/FreshCart-Ecommerce/index.html",
+    "main.be0c54d2.css.map": "/FreshCart-Ecommerce/static/css/main.be0c54d2.css.map",
+    "main.60e19518.js.map": "/FreshCart-Ecommerce/static/js/main.60e19518.js.map",
+    "787.bd02f72e.chunk.js.map": "/FreshCart-Ecommerce/static/js/787.bd02f72e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be0c54d2.css",
+    "static/js/main.60e19518.js"
+  ]
+}
