@@ -33,11 +33,11 @@ export default function Register() {
   }
 
   const validationSchema =yup.object({
-    name: yup.string().min(3, 'min length is 3 char').max(7, 'max is 7').required('name is required'),
-    email: yup.string().email('email not vaild').required('email is required'),
-    password: yup.string().matches(/[A-Z][a-z0-9]{5}$/, 'not valid').required('password is required'),
-    rePassword: yup.string().oneOf([yup.ref('password')], 'password , repassword not match').required('required'),
-    phone: yup.string().matches(/^(002)?01[0-25][0-9]{8}$/, 'not vaild phone number').required('phone is required')
+    name: yup.string().min(3, 'min length is 3 characters').max(20).required(),
+    email: yup.string().email('email not vaild').required(),
+    password: yup.string().matches(/[A-Z][a-z0-9]+$/, 'password should start with capital letters').min(6).max(16).required(),
+    rePassword: yup.string().oneOf([yup.ref('password')], 'password , repassword not match').required(),
+    phone: yup.string().matches(/^(002)?01[0-25][0-9]{8}$/, 'not vaild phone number').required()
   })
 
   let formik = useFormik({

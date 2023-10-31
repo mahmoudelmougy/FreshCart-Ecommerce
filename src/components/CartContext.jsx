@@ -91,15 +91,8 @@ export default function CartContextProv(props) {
   }
 
   function addToWishList(id) {
-    return axios
-      .post(
-        `https://ecommerce.routemisr.com/api/v1/wishlist`,
-        {
-          productId: id,
-        },
-        {
-          headers,
-        }
+    return axios.post(`https://ecommerce.routemisr.com/api/v1/wishlist`,{productId: id,},
+        {headers}
       )
       .then((res) => res)
       .catch((err) => err);

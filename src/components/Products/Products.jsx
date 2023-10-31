@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { ThreeDots } from "react-loader-spinner";
 import { useQuery } from "react-query";
@@ -34,7 +34,7 @@ export default function Products() {
       GetWishListBridg();
 
     } else {
-      toast.error('something went wrong', {
+      toast.error('something went wrong please refresh the page and try again', {
         duration: 4000,
         position: "top-right",
       });
