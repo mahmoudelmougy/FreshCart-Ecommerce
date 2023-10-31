@@ -82,7 +82,7 @@ export default function Cart() {
                       <h4 className='text-main h6 '>Total Price: {cartDetails.data.totalCartPrice}</h4>
                   </div>
                   <div>
-                      <button onClick={clearCart} class="btn btn-outline-danger"> Delete All Cart</button>
+                      <button onClick={clearCart} className="btn btn-outline-danger"> Delete All Cart</button>
                   </div>
             </div>
 

@@ -3,10 +3,10 @@ import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
 import { Outlet } from "react-router-dom";
 import { UserContext } from "../TokenContext/TokenContext";
-import { Offline, Online } from "react-detect-offline";
+import { Offline} from "react-detect-offline";
 
 export default function Layout() {
-  let { setUserToken , userToken } = useContext(UserContext);
+  let { setUserToken} = useContext(UserContext);
 
   useEffect(() => {
     if (localStorage.getItem("usertoken") !== null) {

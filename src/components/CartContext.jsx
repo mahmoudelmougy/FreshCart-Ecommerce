@@ -61,7 +61,7 @@ export default function CartContextProv(props) {
   const [cartDetails, setcartDetails] = useState(null)
   const [cartId, setcartId] = useState('')
   const [wishList, setwishList] = useState(null)
-  const [wishListArr, setwishListArr] = useState([])
+  
 
   async function getCartId(){
     let {data} = await GetLoggedusercart()
@@ -101,15 +101,12 @@ export default function CartContextProv(props) {
           headers,
         }
       )
-      .then((res) => {
-
-        return res
-      })
+      .then((res) => res)
       .catch((err) => err);
   }
   return (
     <cartContext.Provider
-      value={{wishListArr ,setwishListArr ,addToWishList ,GetWishList ,wishList , setwishList , addToCart,cartId , cartDetails, setcartDetails, GetLoggedusercart, updateCartQuantity , removeCartItem , clearAllCart}}
+      value={{addToWishList ,GetWishList ,wishList , setwishList , addToCart,cartId , cartDetails, setcartDetails, GetLoggedusercart, updateCartQuantity , removeCartItem , clearAllCart}}
       >
       {props.children}
     </cartContext.Provider>

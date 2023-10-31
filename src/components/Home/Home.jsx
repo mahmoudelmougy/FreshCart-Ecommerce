@@ -1,5 +1,4 @@
 import React from "react";
-import style from "./Home.module.scss";
 import { Helmet } from "react-helmet";
 import MainSlider from "../MainSlider/MainSlider";
 import CatSlider from "../CatSlider/CatSlider";

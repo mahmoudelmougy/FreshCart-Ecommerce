@@ -36,7 +36,7 @@ let router = createHashRouter([
         ),
       },
       {
-        path: "home",
+        path: "/home",
         element: (
           <ProtectedRoute>
             <Home />
@@ -44,7 +44,7 @@ let router = createHashRouter([
         ),
       },
       {
-        path: "products",
+        path: "/products",
         element: (
           <ProtectedRoute>
             <Products />
@@ -52,7 +52,7 @@ let router = createHashRouter([
         ),
       },
       {
-        path: "categories",
+        path: "/categories",
         element: (
           <ProtectedRoute>
             <Categories />
@@ -60,7 +60,7 @@ let router = createHashRouter([
         ),
       },
       {
-        path: "cart",
+        path: "/cart",
         element: (
           <ProtectedRoute>
             <Cart />
@@ -68,7 +68,7 @@ let router = createHashRouter([
         ),
       },
       {
-        path: "WishList",
+        path: "/WishList",
         element: (
           <ProtectedRoute>
             <WishList />
@@ -84,7 +84,7 @@ let router = createHashRouter([
         ),
       },
       {
-        path: "allorders",
+        path: "/allorders",
         element: (
           <ProtectedRoute>
             <Allorders />
@@ -92,7 +92,7 @@ let router = createHashRouter([
         ),
       },
       {
-        path: "brands",
+        path: "/brands",
         element: (
           <ProtectedRoute>
             <Brands />
@@ -107,11 +107,11 @@ let router = createHashRouter([
           </ProtectedRoute>
         ),
       },
-      { path: "register", element: <Register /> },
+      { path: "/register", element: <Register /> },
       { path: "ForgetPass", element: <ForgetPass /> },
       { path: "ResetCode", element: <ResetCode /> },
       { path: "ResetPassword", element: <ResetPassword /> },
-      { path: "login", element: <Login /> },
+      { path: "/login", element: <Login /> },
       { path: "*", element: <NotFound /> },
     ],
   },

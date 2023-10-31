@@ -53,7 +53,8 @@ export default function WishList() {
   return (
     <>
       {wishList === null?
-        <div className=" text-center bg-dark vw-100 bg-opacity-10 position-absolute  start-0  vh-100 d-flex justify-content-center align-items-center ">
+        <div className=" text-center bg-dark vw-100 bg-opacity-10 position-absolute  start-0  vh-100 d-flex flex-column justify-content-center align-items-center ">
+          <h2>it seems your wishList is empty </h2>
           <div>
             <ThreeDots
               height="80"
