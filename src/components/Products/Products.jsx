@@ -10,7 +10,7 @@ import toast from "react-hot-toast";
 export default function Products() {
   let { addToCart , addToWishList ,wishList ,setwishList ,GetWishList } = useContext(cartContext);
   const [wishListIds, setwishListIds] = useState([])
-  
+  const [filterText, setfilterText] = useState('')
   async function GetWishListBridg(){
     let {data} = await GetWishList()
     // console.log(data);
@@ -86,7 +86,23 @@ export default function Products() {
       
       ) : (
         <div className="row ">
+          <form action="" >
+            <div className="text-center w-50 mx-auto my-5 d-flex align-items-center">
+              <i className="fa-solid fa-magnifying-glass fs-4 mx-2"></i>
+              <input type="search" className="form-control w-75"
+                placeholder="search... "
+                value={filterText}
+                onChange={(e)=>setfilterText(e.target.value)}
+              />
+            </div>
+          </form>
+          
           {data?.data.data.map((product) => {
+                if (
+                  product.title.toLowerCase().indexOf(filterText.toLowerCase()) === -1
+                ) {
+                  return;
+                }
             return (
               <div key={product.id} className="col-md-6 col-lg-4 col-xl-2 product p-2 mb-3 rounded-3">
                 <Link
